@@ -116,7 +116,7 @@ group.addEventListener('click', function(){
   let keyframes = [
     { transform: `rotate(0deg)`, offset: 0 },
     { transform: `rotate(750deg)`, offset: 0.2 },
-    { transform: `rotate(-450deg)`, offset: 0.4 },
+    { transform: `rotate(450deg)`, offset: 0.4 },
     { transform: `rotate(380deg)`, offset: 0.6 },
     { transform: `rotate(${degree}deg)`, offset: 0.8 },
     { transform: `rotate(${360 - degree}deg)`, offset: 1 }
@@ -156,6 +156,6 @@ group.addEventListener('click', function(){
   } else {
     document.getElementById('score').innerHTML =`<strong>Spin Again! </strong>`
   }
-  document.getElementById('score').innerHTML =`<strong>Winning Number: </strong> ${scoreNum}`;
+  document.getElementById('score').innerHTML =`<strong>Degree: ${degree} -- Winning Number: </strong> ${scoreNum}`;
   console.log(`Degree: ${degree}`);
 }, false)
