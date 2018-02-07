@@ -5,6 +5,24 @@ body {
   font-family: 'Open Sans', sans-serif;
 }
 
+/* h1 color change*/
+h1 {
+  animation: colorchange 12s infinite alternate;
+}
+@keyframes colorchange {
+  0% { color: blue;}
+  10% { color: #8e44ad;}
+  20% { color: #1abc9c;}
+  30% { color: #d35400;}
+  40% { color: #ff0f80;}
+  50% { color: #34495e;}
+  60% { color: blue;}
+  70% { color: #2980b9;}
+  80% { color: #f1c40f;}
+  90% { color: #ef476f;}
+  100% { color: pink;}
+}
+
 .page-wrap {
   text-align: center;
   vertical-align: middle;

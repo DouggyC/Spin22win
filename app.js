@@ -108,15 +108,18 @@ grp.appendChild(path);
 newSVG.appendChild(grp);
 
 let degree = 0;
+
+
 // Event
 group.addEventListener('click', function(){
 // Game logic
   degree = Math.floor(Math.random() * (360 - 0) - 0);
 // @Keyframes array
+
   let keyframes = [
     { transform: `rotate(0deg)`, offset: 0 },
     { transform: `rotate(750deg)`, offset: 0.2 },
-    { transform: `rotate(450deg)`, offset: 0.4 },
+    { transform: `rotate(-450deg)`, offset: 0.4 },
     { transform: `rotate(380deg)`, offset: 0.6 },
     { transform: `rotate(${degree}deg)`, offset: 0.8 },
     { transform: `rotate(${360 - degree}deg)`, offset: 1 }
