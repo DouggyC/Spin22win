@@ -159,10 +159,12 @@ group.addEventListener('click', function(){
   } else {
     document.getElementById('score').innerHTML =`<strong>Spin Again! </strong>`
   }
+// Timeout function
 setTimeout(function(){
   document.getElementById('score').innerHTML =`<strong>- The Winning Number: </strong> ${scoreNum} !!!`;
 }, 5700);
 
-
+setTimeout(function(){
   console.log(`Degree: ${degree}`);
+}, 5700);
 }, false)
