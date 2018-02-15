@@ -159,7 +159,7 @@ group.addEventListener('click', function(){
   } else {
     document.getElementById('score').innerHTML =`<strong>Spin Again! </strong>`
   }
-setTimeout(function() => {
+setTimeout(function(){
   document.getElementById('score').innerHTML =`<strong>- The Winning Number: </strong> ${scoreNum} !!!`;
 }, 5700);
 
