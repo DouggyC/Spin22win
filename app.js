@@ -159,6 +159,10 @@ group.addEventListener('click', function(){
   } else {
     document.getElementById('score').innerHTML =`<strong>Spin Again! </strong>`
   }
-  document.getElementById('score').innerHTML =`<strong>Degree: ${degree} -- Winning Number: </strong> ${scoreNum}`;
+setTimeout(function() {
+  document.getElementById('score').innerHTML =`<strong>- Winning Number: </strong> ${scoreNum}`;
+}, 5700);
+
+
   console.log(`Degree: ${degree}`);
 }, false)

@@ -1,5 +1,8 @@
 
-Spin the wheel
+
+                      SPIN22WIN
+
+        https://spin22win.herokuapp.com/index.html
 
 
-var randomColor = Math.floor(Math.random()*16777215).toString(16);
+        Click to spin! If the wheel lands on your chosen number then You're WINNER!
