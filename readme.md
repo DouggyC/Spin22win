@@ -11,4 +11,4 @@
 
 
 
-        Click to spin! If the wheel lands on your chosen number then You're WINNER!
+        Click to spin! If the wheel lands on your number then You're WINNER!
